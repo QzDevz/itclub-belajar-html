@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Diri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --background: #d0e7ff;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--background);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .profile-img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      margin-bottom: 0.8rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+    .info p {
+      margin: 0.5rem 0;
+      color: var(--text);
+    }
+
+    .label {
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .links {
+      margin-top: 1.5rem;
+    }
+
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="pp.png" class="profile-img">
+    <h1>Biodata Diri</h1>
+    <div class="info">
+      <p><span class="label">Nama:</span> Mahardika Putra</p>
+      <p><span class="label">Kelas:</span> X TKJ 2</p>
+      <p><span class="label">Alamat:</span> BOGANGIN 1 GANG GINTEN 75-D</p>
+      <p><span class="label">Nomor Telepon:</span> 0857-2412-9311</p>
+    </div>
+  </div>
+</body>
+</html>
